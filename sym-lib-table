@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name A20_OLinuXino_Lime2_SHIELD_TEMPLATE_Rev-AA-rescue)(type Legacy)(uri ${KIPRJMOD}/A20_OLinuXino_Lime2_SHIELD_TEMPLATE_Rev-AA-rescue.lib)(options "")(descr ""))
+  (lib (name A20_OLinuXino_Lime2_SHIELD_TEMPLATE_Rev-AA-rescue)(type Legacy)(uri ${KIPRJMOD}/A20_OLinuXino_Lime2_SHIELD_TEMPLATE_Rev-AA-rescue.lib)(options "")(descr "")(disabled))
   (lib (name lime2-ice40-shield)(type Legacy)(uri ${KIPRJMOD}/lime2-ice40-shield.lib)(options "")(descr ""))
-  (lib (name A20_OLIMEXINO_LIME2_SHIELD)(type Legacy)(uri ${KIPRJMOD}/A20_OLIMEXINO_LIME2_SHIELD.lib)(options "")(descr ""))
+  (lib (name A20_OLIMEXINO_LIME2_SHIELD)(type Legacy)(uri ${KIPRJMOD}/A20_OLIMEXINO_LIME2_SHIELD.lib)(options "")(descr "")(disabled))
 )
