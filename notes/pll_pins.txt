@@ -1,0 +1,2 @@
+49, 52, 128, 129 - don't use these pins as inputs, they are shared with the
+PLL's
