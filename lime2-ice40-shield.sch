@@ -607,12 +607,12 @@ Wire Wire Line
 $Comp
 L lime2-ice40-shield:ICE40HX4K-TQ144 U1
 U 4 1 5F76DB87
-P 9450 6350
-F 0 "U1" H 9799 6528 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 9799 6437 50  0000 L CNN
-F 2 "lime2-ice40-shield:TQFP-144_20x20mm_P0.5mm" H 10450 4450 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 8450 8850 50  0001 C CNN
-	4    9450 6350
+P 13300 7500
+F 0 "U1" H 13649 7678 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 13649 7587 50  0000 L CNN
+F 2 "lime2-ice40-shield:TQFP-144_20x20mm_P0.5mm" H 14300 5600 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 12300 10000 50  0001 C CNN
+	4    13300 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -646,14 +646,6 @@ Entry Wire Line
 	1400 2400 1300 2500
 Entry Wire Line
 	1400 2500 1300 2600
-Entry Wire Line
-	1400 2800 1300 2900
-Entry Wire Line
-	1400 2900 1300 3000
-Entry Wire Line
-	1400 3000 1300 3100
-Entry Wire Line
-	1400 3100 1300 3200
 Wire Wire Line
 	2350 4300 1400 4300
 Entry Wire Line
@@ -694,10 +686,6 @@ Entry Wire Line
 	1400 5100 1300 5000
 Entry Wire Line
 	1400 5200 1300 5100
-Entry Bus Bus
-	1300 3750 1400 3650
-Entry Bus Bus
-	4800 3650 4900 3550
 Entry Wire Line
 	5000 1850 4900 1950
 Entry Wire Line
@@ -728,68 +716,36 @@ Entry Wire Line
 	5000 3150 4900 3250
 Entry Wire Line
 	5000 3250 4900 3350
-Text Label 1500 9600 0    70   ~ 0
+Text Label 8100 5050 0    70   ~ 0
 CSI1_D9\PH9
-Text Label 1500 9700 0    70   ~ 0
+Text Label 8100 5150 0    70   ~ 0
 CSI1_D10\PH10
-Text Label 1500 10000 0    70   ~ 0
+Text Label 8100 5450 0    70   ~ 0
 CSI1_D13\PH13
-Text Label 1500 10100 0    70   ~ 0
+Text Label 8100 5550 0    70   ~ 0
 CSI1_D14\PH14
-Text Label 1500 10200 0    70   ~ 0
+Text Label 8100 5650 0    70   ~ 0
 CSI1_D15\PH15
-Text Label 1500 10300 0    70   ~ 0
+Text Label 8100 5750 0    70   ~ 0
 CSI1_D16\PH16
-Text Label 4350 4300 0    70   ~ 0
+Text Label 8100 5850 0    70   ~ 0
 CSI1_D17\PH17
-Text Label 4350 4400 0    70   ~ 0
+Text Label 8100 5950 0    70   ~ 0
 CSI1_D18\PH18
-Text Label 1500 9800 0    70   ~ 0
+Text Label 8100 5250 0    70   ~ 0
 CSI1_D11\PH11
-Text Label 1500 9900 0    70   ~ 0
+Text Label 8100 5350 0    70   ~ 0
 CSI1_D12\PH12
-Text Label 4350 4500 0    70   ~ 0
+Text Label 8100 6050 0    70   ~ 0
 CSI1_D19\PH19
-Text Label 4350 4600 0    70   ~ 0
+Text Label 8100 6150 0    70   ~ 0
 CSI1_D20\PH20
-Text Label 4350 4700 0    70   ~ 0
+Text Label 8100 6250 0    70   ~ 0
 CSI1_D21\PH21
-Text Label 4350 4800 0    70   ~ 0
+Text Label 8100 6350 0    70   ~ 0
 CSI1_D22\PH22
-Text Label 4350 4900 0    70   ~ 0
+Text Label 8100 6650 0    70   ~ 0
 CSI1_D23\PH23
-Entry Wire Line
-	1300 9500 1400 9600
-Entry Wire Line
-	1300 9600 1400 9700
-Entry Wire Line
-	1300 9700 1400 9800
-Entry Wire Line
-	1300 9800 1400 9900
-Entry Wire Line
-	1300 9900 1400 10000
-Entry Wire Line
-	1300 10000 1400 10100
-Entry Wire Line
-	1300 10100 1400 10200
-Entry Wire Line
-	1300 10200 1400 10300
-Wire Wire Line
-	1400 9600 2450 9600
-Wire Wire Line
-	1400 9700 2450 9700
-Wire Wire Line
-	1400 9800 2450 9800
-Wire Wire Line
-	1400 9900 2450 9900
-Wire Wire Line
-	1400 10000 2450 10000
-Wire Wire Line
-	1400 10100 2450 10100
-Wire Wire Line
-	1400 10200 2450 10200
-Wire Wire Line
-	1400 10300 2450 10300
 Text Label 1450 5200 0    70   ~ 0
 CSI1_HSYNC\PG2
 Text Label 1450 5100 0    70   ~ 0
@@ -811,11 +767,11 @@ CSI1_PCLK\PH24
 NoConn ~ 2450 1500
 Wire Wire Line
 	6750 2950 8500 2950
-Text Label 4350 5000 0    70   ~ 0
+Text Label 8100 6750 0    70   ~ 0
 CSI1_PCLK\PH24
-NoConn ~ 4600 5700
-NoConn ~ 4600 5800
-Text Notes 3900 5850 0    50   ~ 0
+NoConn ~ 8750 6450
+NoConn ~ 8750 6550
+Text Notes 8050 6600 0    50   ~ 0
 Use these two pins \nonly if you\n*REALLY* have to!\n
 Text Label 1900 5400 0    70   ~ 0
 CLK
@@ -833,8 +789,8 @@ $Comp
 L lime2-ice40-shield:ICE40HX4K-TQ144 U1
 U 3 1 5F76A9E3
 P 2850 5100
-F 0 "U1" H 3250 5350 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 3249 5237 50  0000 L CNN
+F 0 "U1" H 2500 3950 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 2500 3850 50  0000 L CNN
 F 2 "lime2-ice40-shield:TQFP-144_20x20mm_P0.5mm" H 3850 3200 50  0001 R CNN
 F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1850 7600 50  0001 C CNN
 	3    2850 5100
@@ -842,70 +798,607 @@ F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1850 7600 50  0001
 $EndComp
 $Comp
 L lime2-ice40-shield:ICE40HX4K-TQ144 U1
+U 1 1 5F7656C2
+P 9500 6250
+F 0 "U1" H 9150 4750 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 9150 4650 50  0000 L CNN
+F 2 "lime2-ice40-shield:TQFP-144_20x20mm_P0.5mm" H 10500 4350 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 8500 8750 50  0001 C CNN
+	1    9500 6250
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7950 4950 8050 5050
+Entry Wire Line
+	7950 5050 8050 5150
+Entry Wire Line
+	7950 5150 8050 5250
+Entry Wire Line
+	7950 5250 8050 5350
+Entry Wire Line
+	7950 5350 8050 5450
+Entry Wire Line
+	7950 5450 8050 5550
+Entry Wire Line
+	7950 5550 8050 5650
+Wire Wire Line
+	8050 5050 9000 5050
+Wire Wire Line
+	8050 5150 9000 5150
+Wire Wire Line
+	8050 5250 9000 5250
+Wire Wire Line
+	8050 5350 9000 5350
+Wire Wire Line
+	8050 5450 9000 5450
+Wire Wire Line
+	8050 5550 9000 5550
+Wire Wire Line
+	8050 5650 9000 5650
+Entry Wire Line
+	7950 5650 8050 5750
+Wire Wire Line
+	8050 5750 9000 5750
+Wire Wire Line
+	8750 6450 9000 6450
+Wire Wire Line
+	9000 6550 8750 6550
+Entry Bus Bus
+	4900 3700 5000 3800
+Entry Bus Bus
+	7850 3800 7950 3900
+$Comp
+L lime2-ice40-shield:ICE40HX4K-TQ144 U1
 U 2 1 5F768AC8
-P 2950 8800
-F 0 "U1" H 3299 9028 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 3299 8937 50  0000 L CNN
-F 2 "lime2-ice40-shield:TQFP-144_20x20mm_P0.5mm" H 3950 6900 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1950 11300 50  0001 C CNN
-	2    2950 8800
+P 5000 6400
+F 0 "U1" H 4700 4750 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 4700 4650 50  0000 L CNN
+F 2 "lime2-ice40-shield:TQFP-144_20x20mm_P0.5mm" H 6000 4500 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 4000 8900 50  0001 C CNN
+	2    5000 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L lime2-ice40-shield:ICE40HX4K-TQ144 U1
-U 1 1 5F7656C2
-P 5750 5500
-F 0 "U1" H 6099 5728 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 6099 5637 50  0000 L CNN
-F 2 "lime2-ice40-shield:TQFP-144_20x20mm_P0.5mm" H 6750 3600 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 4750 8000 50  0001 C CNN
-	1    5750 5500
+L Memory_RAM:AS4C4M16SA U2
+U 1 1 5FFA7E6E
+P 6600 6350
+F 0 "U2" H 6600 7831 50  0000 C CNN
+F 1 "AS4C4M16SA-6TCN" H 6600 7740 50  0000 C CNN
+F 2 "lime2-ice40-shield:TSOP-II-54_22.2x10.16mm_P0.8mm" H 6600 6350 50  0001 C CIN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf" H 6600 6100 50  0001 C CNN
+	1    6600 6350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 5700 5250 5700
-Wire Wire Line
-	4600 5800 5250 5800
+Wire Bus Line
+	5000 3800 7850 3800
 Entry Bus Bus
-	4200 3750 4300 3650
-Entry Wire Line
-	4200 4200 4300 4300
-Entry Wire Line
-	4200 4300 4300 4400
-Entry Wire Line
-	4200 4400 4300 4500
-Entry Wire Line
-	4200 4500 4300 4600
-Entry Wire Line
-	4200 4600 4300 4700
-Entry Wire Line
-	4200 4700 4300 4800
-Entry Wire Line
-	4200 4800 4300 4900
-Wire Wire Line
-	4300 4300 5250 4300
-Wire Wire Line
-	4300 4400 5250 4400
-Wire Wire Line
-	4300 4500 5250 4500
-Wire Wire Line
-	4300 4600 5250 4600
-Wire Wire Line
-	4300 4700 5250 4700
-Wire Wire Line
-	4300 4800 5250 4800
-Wire Wire Line
-	4300 4900 5250 4900
-Entry Wire Line
-	4200 4900 4300 5000
-Wire Wire Line
-	4300 5000 5250 5000
+	4050 4200 3950 4300
 Wire Bus Line
-	1400 3650 4800 3650
+	4050 4200 5300 4200
+Entry Bus Bus
+	5300 4200 5400 4300
+Entry Wire Line
+	5400 5200 5500 5300
+Entry Wire Line
+	5400 5300 5500 5400
+Entry Wire Line
+	5400 5400 5500 5500
+Entry Wire Line
+	5400 5500 5500 5600
+Entry Wire Line
+	5400 5600 5500 5700
+Entry Wire Line
+	5400 5700 5500 5800
+Entry Wire Line
+	5400 5800 5500 5900
+Entry Wire Line
+	5400 5900 5500 6000
+Entry Wire Line
+	5400 6000 5500 6100
+Entry Wire Line
+	5400 6100 5500 6200
+Entry Wire Line
+	5400 6200 5500 6300
+Entry Wire Line
+	5400 6300 5500 6400
+Wire Wire Line
+	5800 5300 5500 5300
+Wire Wire Line
+	5500 5400 5800 5400
+Wire Wire Line
+	5500 5500 5800 5500
+Wire Wire Line
+	5800 5600 5500 5600
+Wire Wire Line
+	5500 5700 5800 5700
+Wire Wire Line
+	5800 5800 5500 5800
+Wire Wire Line
+	5500 5900 5800 5900
+Wire Wire Line
+	5800 6000 5500 6000
+Wire Wire Line
+	5800 6100 5500 6100
+Wire Wire Line
+	5500 6200 5800 6200
+Wire Wire Line
+	5500 6300 5800 6300
+Wire Wire Line
+	5500 6400 5800 6400
+Wire Wire Line
+	5500 6550 5800 6550
+Wire Wire Line
+	5800 6650 5500 6650
+Wire Wire Line
+	5800 6800 5500 6800
+Wire Wire Line
+	5500 6900 5800 6900
+Wire Wire Line
+	5800 7050 5500 7050
+Wire Wire Line
+	5500 7150 5800 7150
+Wire Wire Line
+	5800 7250 5500 7250
+Wire Wire Line
+	5800 7400 5500 7400
+Text Label 5500 5300 0    50   ~ 0
+RAM_A0
+Text Label 5500 5400 0    50   ~ 0
+RAM_A1
+Text Label 5500 5500 0    50   ~ 0
+RAM_A2
+Text Label 5500 5600 0    50   ~ 0
+RAM_A3
+Text Label 5500 5700 0    50   ~ 0
+RAM_A4
+Text Label 5500 5800 0    50   ~ 0
+RAM_A5
+Text Label 5500 5900 0    50   ~ 0
+RAM_A6
+Text Label 5500 6000 0    50   ~ 0
+RAM_A7
+Text Label 5500 6100 0    50   ~ 0
+RAM_A8
+Text Label 5500 6200 0    50   ~ 0
+RAM_A9
+Text Label 5500 6300 0    50   ~ 0
+RAM_A10
+Text Label 5500 6400 0    50   ~ 0
+RAM_A11
+Entry Wire Line
+	3950 5000 4050 5100
+Entry Wire Line
+	3950 5100 4050 5200
+Entry Wire Line
+	3950 5200 4050 5300
+Entry Wire Line
+	3950 5300 4050 5400
+Entry Wire Line
+	3950 5400 4050 5500
+Entry Wire Line
+	3950 5500 4050 5600
+Entry Wire Line
+	3950 5600 4050 5700
+Entry Wire Line
+	3950 5700 4050 5800
+Entry Wire Line
+	3950 5800 4050 5900
+Entry Wire Line
+	3950 5900 4050 6000
+Entry Wire Line
+	3950 6000 4050 6100
+Entry Wire Line
+	3950 6100 4050 6200
+Wire Wire Line
+	4050 5100 4500 5100
+Wire Wire Line
+	4500 5200 4050 5200
+Wire Wire Line
+	4050 5300 4500 5300
+Wire Wire Line
+	4500 5400 4050 5400
+Wire Wire Line
+	4050 5500 4500 5500
+Wire Wire Line
+	4500 5600 4050 5600
+Wire Wire Line
+	4050 5700 4500 5700
+Wire Wire Line
+	4500 5800 4050 5800
+Wire Wire Line
+	4050 5900 4500 5900
+Wire Wire Line
+	4500 6000 4050 6000
+Wire Wire Line
+	4050 6100 4500 6100
+Wire Wire Line
+	4500 6200 4050 6200
+Text Label 4050 6000 0    50   ~ 0
+RAM_A0
+Text Label 4050 6100 0    50   ~ 0
+RAM_A1
+Text Label 4050 6200 0    50   ~ 0
+RAM_A2
+Text Label 4050 6300 0    50   ~ 0
+RAM_A3
+Text Label 4050 6400 0    50   ~ 0
+RAM_A4
+Text Label 3600 7200 0    50   ~ 0
+RAM_A5
+Text Label 3600 7100 0    50   ~ 0
+RAM_A6
+Text Label 3600 7000 0    50   ~ 0
+RAM_A7
+Text Label 3600 6900 0    50   ~ 0
+RAM_A8
+Text Label 5500 6550 0    50   ~ 0
+RAM_BA0
+Text Label 5500 6650 0    50   ~ 0
+RAM_BA1
+Text Label 5500 6800 0    50   ~ 0
+RAM_CLK
+Text Label 5500 6900 0    50   ~ 0
+RAM_CKE
+Text Label 5500 7050 0    50   ~ 0
+RAM_RAS
+Text Label 5500 7150 0    50   ~ 0
+RAM_CAS
+Text Label 5500 7250 0    50   ~ 0
+RAM_WE
+Text Label 5500 7400 0    50   ~ 0
+RAM_CS
+Entry Bus Bus
+	1300 8850 1400 8950
 Wire Bus Line
-	4200 3750 4200 4900
+	1400 8950 5300 8950
+Entry Bus Bus
+	5300 8950 5400 8850
+Entry Wire Line
+	5500 6550 5400 6650
+Entry Wire Line
+	5400 6750 5500 6650
+Entry Wire Line
+	5400 7150 5500 7050
+Entry Wire Line
+	5400 7250 5500 7150
+Entry Wire Line
+	5400 7350 5500 7250
+Entry Wire Line
+	1300 5600 1400 5500
+Wire Wire Line
+	1400 5500 2350 5500
+Wire Wire Line
+	2350 5600 1400 5600
+Wire Wire Line
+	1400 5700 2350 5700
+Wire Wire Line
+	2350 5800 1400 5800
+Wire Wire Line
+	1400 5900 2350 5900
+Wire Wire Line
+	2350 6000 1400 6000
+Entry Wire Line
+	1300 5700 1400 5600
+Entry Wire Line
+	1300 5800 1400 5700
+Entry Wire Line
+	1300 5900 1400 5800
+Entry Wire Line
+	1300 6000 1400 5900
+Entry Wire Line
+	1300 6100 1400 6000
+Text Label 1950 5600 0    50   ~ 0
+RAM_BA0
+Text Label 1950 5500 0    50   ~ 0
+RAM_BA1
+Text Label 1950 5800 0    50   ~ 0
+RAM_RAS
+Text Label 1950 5900 0    50   ~ 0
+RAM_CAS
+Text Label 1950 6000 0    50   ~ 0
+RAM_WE
+Wire Wire Line
+	4500 6300 4050 6300
+Wire Wire Line
+	4500 6400 4050 6400
+Text Label 3600 6600 0    50   ~ 0
+RAM_CLK
+Text Label 3600 6500 0    50   ~ 0
+RAM_CKE
+Entry Wire Line
+	5400 7500 5500 7400
+Text Label 1950 5700 0    50   ~ 0
+RAM_CS
+Entry Wire Line
+	7950 5750 8050 5850
+Entry Wire Line
+	7950 5850 8050 5950
+Entry Wire Line
+	7950 5950 8050 6050
+Entry Wire Line
+	7950 6050 8050 6150
+Entry Wire Line
+	7950 6150 8050 6250
+Entry Wire Line
+	7950 6250 8050 6350
+Entry Wire Line
+	7950 6550 8050 6650
+Entry Wire Line
+	7950 6650 8050 6750
+Wire Wire Line
+	9000 5850 8050 5850
+Wire Wire Line
+	8050 5950 9000 5950
+Wire Wire Line
+	9000 6050 8050 6050
+Wire Wire Line
+	8050 6150 9000 6150
+Wire Wire Line
+	9000 6250 8050 6250
+Wire Wire Line
+	8050 6350 9000 6350
+Wire Wire Line
+	8050 6650 9000 6650
+Wire Wire Line
+	9000 6750 8050 6750
+Entry Wire Line
+	7950 6750 8050 6850
+Entry Wire Line
+	7950 6850 8050 6950
+Entry Wire Line
+	7950 6950 8050 7050
+Entry Wire Line
+	7950 7050 8050 7150
+Entry Wire Line
+	7950 7150 8050 7250
+Entry Wire Line
+	7950 7250 8050 7350
+Entry Wire Line
+	7950 7350 8050 7450
+Entry Wire Line
+	7950 7450 8050 7550
+Entry Wire Line
+	7950 7550 8050 7650
+Wire Wire Line
+	9000 6850 8050 6850
+Wire Wire Line
+	8050 6950 9000 6950
+Wire Wire Line
+	9000 7050 8050 7050
+Wire Wire Line
+	8050 7150 9000 7150
+Wire Wire Line
+	9000 7250 8050 7250
+Wire Wire Line
+	8050 7350 9000 7350
+Wire Wire Line
+	9000 7450 8050 7450
+Wire Wire Line
+	8050 7550 9000 7550
+Wire Wire Line
+	8050 7650 9000 7650
+Entry Wire Line
+	7700 5400 7600 5300
+Entry Wire Line
+	7600 5400 7700 5500
+Entry Wire Line
+	7600 5500 7700 5600
+Entry Wire Line
+	7600 5600 7700 5700
+Entry Wire Line
+	7600 5700 7700 5800
+Entry Wire Line
+	7600 5800 7700 5900
+Entry Wire Line
+	7600 5900 7700 6000
+Entry Wire Line
+	7600 6000 7700 6100
+Entry Wire Line
+	7600 6100 7700 6200
+Entry Wire Line
+	7600 6200 7700 6300
+Entry Wire Line
+	7600 6300 7700 6400
+Entry Wire Line
+	7600 6400 7700 6500
+Entry Wire Line
+	7600 6500 7700 6600
+Entry Wire Line
+	7600 6600 7700 6700
+Entry Wire Line
+	7600 6700 7700 6800
+Entry Wire Line
+	7600 7050 7700 7150
+Entry Wire Line
+	7600 7150 7700 7250
+Wire Wire Line
+	7400 5300 7600 5300
+Wire Wire Line
+	7600 5400 7400 5400
+Wire Wire Line
+	7400 5500 7600 5500
+Wire Wire Line
+	7600 5600 7400 5600
+Wire Wire Line
+	7400 5700 7600 5700
+Wire Wire Line
+	7600 5800 7400 5800
+Wire Wire Line
+	7400 5900 7600 5900
+Wire Wire Line
+	7600 6000 7400 6000
+Wire Wire Line
+	7400 6100 7600 6100
+Wire Wire Line
+	7600 6200 7400 6200
+Wire Wire Line
+	7400 6300 7600 6300
+Wire Wire Line
+	7600 6400 7400 6400
+Wire Wire Line
+	7400 6500 7600 6500
+Wire Wire Line
+	7400 6600 7600 6600
+Wire Wire Line
+	7600 6700 7400 6700
+Entry Wire Line
+	7600 6800 7700 6900
+Wire Wire Line
+	7400 6800 7600 6800
+Wire Wire Line
+	7600 7050 7400 7050
+Wire Wire Line
+	7600 7150 7400 7150
+Text Label 7400 5300 0    50   ~ 0
+RAM_DQ0
+Text Label 7400 5400 0    50   ~ 0
+RAM_DQ1
+Text Label 7400 5500 0    50   ~ 0
+RAM_DQ2
+Text Label 7400 5600 0    50   ~ 0
+RAM_DQ3
+Text Label 7400 5700 0    50   ~ 0
+RAM_DQ4
+Text Label 7400 5800 0    50   ~ 0
+RAM_DQ5
+Text Label 7400 5900 0    50   ~ 0
+RAM_DQ6
+Text Label 7400 6000 0    50   ~ 0
+RAM_DQ7
+Wire Wire Line
+	3550 7900 4500 7900
+Wire Wire Line
+	3550 7800 4500 7800
+Wire Wire Line
+	3550 7700 4500 7700
+Wire Wire Line
+	3550 7600 4500 7600
+Wire Wire Line
+	3550 7500 4500 7500
+Wire Wire Line
+	3550 7400 4500 7400
+Wire Wire Line
+	3550 7300 4500 7300
+Wire Wire Line
+	3550 7200 4500 7200
+Entry Bus Bus
+	3450 4200 3550 4100
+Entry Wire Line
+	3450 7800 3550 7900
+Entry Wire Line
+	3450 7700 3550 7800
+Entry Wire Line
+	3450 7600 3550 7700
+Entry Wire Line
+	3450 7500 3550 7600
+Entry Wire Line
+	3450 7400 3550 7500
+Entry Wire Line
+	3450 7300 3550 7400
+Entry Wire Line
+	3450 7200 3550 7300
+Entry Wire Line
+	3450 7100 3550 7200
 Wire Bus Line
-	4900 1950 4900 3550
+	3550 4100 7600 4100
+Entry Bus Bus
+	7600 4100 7700 4200
+Wire Wire Line
+	4500 6500 3550 6500
+Wire Wire Line
+	4500 6600 3550 6600
+Wire Wire Line
+	3550 6700 4500 6700
+Wire Wire Line
+	4500 6800 3550 6800
+Wire Wire Line
+	3550 6900 4500 6900
+Wire Wire Line
+	4500 7000 3550 7000
+Wire Wire Line
+	4500 7100 3550 7100
+Entry Wire Line
+	3450 6400 3550 6500
+Entry Wire Line
+	3450 6500 3550 6600
+Entry Wire Line
+	3450 6600 3550 6700
+Entry Wire Line
+	3450 6700 3550 6800
+Entry Wire Line
+	3450 6800 3550 6900
+Entry Wire Line
+	3450 6900 3550 7000
+Entry Wire Line
+	3450 7000 3550 7100
+Text Label 4050 5100 0    50   ~ 0
+RAM_DQ0
+Text Label 4050 5200 0    50   ~ 0
+RAM_DQ1
+Text Label 4050 5300 0    50   ~ 0
+RAM_DQ2
+Text Label 4050 5400 0    50   ~ 0
+RAM_DQ3
+Text Label 4050 5500 0    50   ~ 0
+RAM_DQ4
+Text Label 4050 5600 0    50   ~ 0
+RAM_DQ5
+Text Label 4050 5700 0    50   ~ 0
+RAM_DQ6
+Text Label 4050 5800 0    50   ~ 0
+RAM_DQ7
+Text Label 4050 5900 0    50   ~ 0
+RAM_A10
+Text Label 3600 6800 0    50   ~ 0
+RAM_A9
+Text Label 3600 6700 0    50   ~ 0
+RAM_A11
+Text Label 7400 6100 0    50   ~ 0
+RAM_DQ8
+Text Label 7400 6200 0    50   ~ 0
+RAM_DQ9
+Text Label 7400 6300 0    50   ~ 0
+RAM_DQ10
+Text Label 7400 6400 0    50   ~ 0
+RAM_DQ11
+Text Label 7400 6500 0    50   ~ 0
+RAM_DQ12
+Text Label 3550 7900 0    50   ~ 0
+RAM_DQ8
+Text Label 3550 7800 0    50   ~ 0
+RAM_DQ9
+Text Label 3550 7700 0    50   ~ 0
+RAM_DQ10
+Text Label 3550 7600 0    50   ~ 0
+RAM_DQ11
+Text Label 3550 7500 0    50   ~ 0
+RAM_DQ12
+Text Label 7400 6600 0    50   ~ 0
+RAM_DQ13
+Text Label 7400 6700 0    50   ~ 0
+RAM_DQ14
+Text Label 7400 6800 0    50   ~ 0
+RAM_DQ15
+Text Label 3550 7400 0    50   ~ 0
+RAM_DQ13
+Text Label 3550 7300 0    50   ~ 0
+RAM_DQ14
 Wire Bus Line
-	1300 1700 1300 10200
+	5400 6650 5400 8850
+Wire Bus Line
+	1300 5600 1300 8850
+Wire Bus Line
+	4900 1950 4900 3700
+Wire Bus Line
+	5400 4300 5400 6300
+Wire Bus Line
+	3950 4300 3950 6100
+Wire Bus Line
+	3450 4200 3450 7800
+Wire Bus Line
+	7700 4200 7700 7250
+Wire Bus Line
+	1300 1700 1300 5100
+Wire Bus Line
+	7950 3900 7950 7650
 $EndSCHEMATC
